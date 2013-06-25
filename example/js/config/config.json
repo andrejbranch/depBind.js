@@ -1,0 +1,23 @@
+[
+    {
+        "id": "square",
+        "file": "/example/js/objects/square.js",
+        "arguments": [
+            "square_dragger"
+        ],
+        "events": {
+            "mousedown" : "onMouseDown",
+            "mouseup"   : "onMouseUp"
+        }
+    },
+    {
+        "id": "square_dragger",
+        "file": "/example/js/objects/squareDragger.js",
+        "arguments": [
+            "square"
+        ],
+        "globalEvents": {
+            "mousemove" : "onMouseMove"
+        }
+    }
+]
